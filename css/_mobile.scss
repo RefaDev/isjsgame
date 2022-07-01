@@ -1,0 +1,134 @@
+@media (max-width: 767px) {
+  .center {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .header {
+
+    // .header__main
+
+    &__main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      // .header__main_title
+
+      &_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+
+      // .header__main_subtitle
+
+      &_subtitle {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      // .header__main_link
+
+      &_link {}
+    }
+  }
+
+  .content {
+    padding: 127px 0px 127px 0px;
+    // .content__main
+
+    &__main {
+
+      // .content__main_link
+
+      &_link {
+        margin: 0px 0px 0px 0px;
+        height: 300px;
+        width: 343px;
+      }
+
+      // .content__main_item-name
+
+      &_item-name {}
+    }
+  }
+
+
+  .second {}
+
+  .center {}
+
+  .seasons-wrap {
+        display: flex;
+    gap: 31px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 90px 0px 90px 0px;
+  }
+
+  .seasons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    // .seasons__title
+
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+
+      color: #FFFFFF;
+    }
+
+    // .seasons__text
+
+    &__text {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    // .seasons__link
+
+    &__link {}
+  }
+
+  .header {
+
+    // .header__main
+
+    &__main {
+
+      // .header__main_link
+
+      &_link {}
+    }
+  }
+
+  .seasons-img {
+    padding: 0px 0px 60px 0px;
+  }
+
+  .seasons-image {
+    max-width: 344px;
+  }
+
+}

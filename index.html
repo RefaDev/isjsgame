@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Базовый JS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__main center">
+      <h1 class="header__main_title">Добро пожаловать <br> на мой сайт !</h1>
+      <p class="header__main_subtitle">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+        <span>поехали</span> и
+        <span>приступай</span></p>
+      <a href="#games" class="header__main_link">Поехали!</a>
+    </div>
+  </header>
+  <section id="games" class="first content center">
+    <div class="content__main">
+
+      <a href="#game1" class="content__main_link item1">
+        <p class="content__main_item-name">Игра 1</p>
+      </a>
+
+
+
+      <a href="#game2" class="content__main_link item2">
+        <p class="content__main_item-name">Игра 2</p>
+      </a>
+
+      <a href="#" class="content__main_link item3">
+        <p class="content__main_item-name">Игра 3</p>
+      </a>
+    </div>
+
+  </section>
+
+  <section id="game1" class="second center">
+    <div class="seasons-wrap">
+      <div class="seasons">
+        <h2 class="seasons__title">Времена года!</h2>
+        <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+          времени
+          года он относится</p>
+        <a href="#game1" onclick="newMonth()" class="seasons__link header__main_link">Играть!</a>
+      </div>
+      <div class="seasons-img">
+        <img src="img/seasons-img.png" alt="image" class="seasons-image">
+      </div>
+    </div>
+  </section>
+  <section id="game2" class="second center">
+    <div class="seasons-wrap">
+      <div class="seasons-img">
+        <img src="img/words.png" alt="image" class="seasons-image">
+      </div>
+      <div class="seasons">
+        <h2 class="seasons__title">Запомни слова!</h2>
+        <p class="seasons__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+        <a href="#game2" onclick="secondGame()" class="seasons__link header__main_link">Играть!</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
